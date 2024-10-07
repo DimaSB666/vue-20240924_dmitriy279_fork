@@ -4,7 +4,7 @@ import type { VueWrapper, DOMWrapper } from '@vue/test-utils'
 import { WeatherConditionIcons, getWeatherData } from '@/weather.service.ts'
 import WeatherApp from '@/WeatherApp.js'
 
-describe('WeatherApp', () => {
+describe('weather-app', () => {
   let weatherData: ReturnType<typeof getWeatherData>
   let wrapper: VueWrapper
   let cards: DOMWrapper<HTMLElement>[]
